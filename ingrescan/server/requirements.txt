@@ -1,0 +1,7 @@
+# Requirements for the local scoring API (server/score_api.py)
+# Keep versions reasonably recent but not pinned to a single micro-version.
+Flask>=2.0,<3.0
+requests>=2.25.0
+
+# Optional (for production deployments)
+# gunicorn>=20.0.4
